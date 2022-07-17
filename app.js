@@ -7,7 +7,7 @@ const userRouter = require('./routes/user.js');
 const app = express();
 
 const port = 2000; 
-const uri = "mongodb+srv://admin:admin@fullstackexpressvue.wskfn.mongodb.net/test";
+const uri = "mongodb+srv://<username>:<password>@fullstackexpressvue.wskfn.mongodb.net/test";
 
 
 mongoose.connect(uri, {useNewUrlParser:true});
