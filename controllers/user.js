@@ -1,7 +1,7 @@
 const bcrypt = require("bcryptjs");
 const jwt = require("jsonwebtoken");
 const Model = require("../models/user.js");
-const tokenKey = "gcsn-token+key-2022";
+const tokenKey = "Your+Token+String@yourwebsite";
 const {signUpValidation,signInValidation} = require('../validation/auth.js');
 
 const signUp = async (req, res) => {
